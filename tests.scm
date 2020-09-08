@@ -33,7 +33,7 @@
     (stream-cons 0 (stream-map add1 nats)))
 
 
-    (test-begin "srfi-41: streams")
+    (test-group "srfi-41: streams"
 
     ;; stream-null
     (test #t (stream? stream-null))
@@ -350,5 +350,5 @@
         (stream->list (stream-zip strm123 (stream-from 1))))
     (test '((1 1 1) (2 2 2) (3 3 3))
         (stream->list (stream-zip strm123 strm123 strm123)))
-
+)
     (test-exit)
