@@ -1,18 +1,17 @@
 (package
- (name           srfi-173)
- (version        0.3)
+ (name           srfi-41)
+ (version        0.1)
  (license        "MIT")
- (authors        "Amirouche Boubekki")
+ (authors        "Philip L. Bewig, Alex Shinn")
  (maintainers    "Justin Ethier <justin.ethier at gmail dot com>")
- (description    "Hooks")
+ (description    "Streams")
  (tags           "srfi" "language extensions")
- (docs           "https://github.com/cyclone-scheme/cyclone-winds/wiki/srfi-173")
+ (docs           "https://github.com/cyclone-scheme/cyclone-winds/wiki/srfi-41")
  (test           "tests.scm")
- (dependencies (srfi-145))
  (test-dependencies ())
  (foreign-dependencies ())
 
  (library
-     (name (srfi 173))
-   (description "Hooks")))
+     (name (srfi 41))
+   (description "Streams")))
 
